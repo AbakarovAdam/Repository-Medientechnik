@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            background-color: #D3D3D3;
+        }
+
+        #Videobox {
+            display: flex;
+            margin: auto;
+            margin-left: 8%;
+            margin-top: 15%;
+            width: 60%;
+            height: auto;
+        }
+
+        header {
+            font-size: 150%;
+            font-weight: bold;
+        }
+
+        header a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">Home</a>
+    </header>
+    <h1 style="text-align: center;font-family:Arial, Helvetica, sans-serif;margin-top: 5%;">Short videos of the e60</h1>
+    <div id="Videobox">
+        <div id="Videobox1">
+            <video title="just click here" autoplay controls loop>
+                <source src="../video/Tunnel1.mp4">
+            </video>
+        </div>
+        <div id="Videobox2">
+            <video title="just click here" autoplay controls loop>
+                <source src="../video/Tunnel3.mp4">
+            </video>
+        </div>
+    </div>
+</body>
